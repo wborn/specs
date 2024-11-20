@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.platform      = :ios, "14.0"
   spec.swift_version = '5.0'
 
-  spec.source        = { :git => "https://github.com/openremote/console-ios.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/wborn/console-ios.git", :tag => "#{spec.version}" }
   spec.source_files  = 'ORLib/**/*.swift'
   spec.exclude_files = '**/Tests/*'
 end
